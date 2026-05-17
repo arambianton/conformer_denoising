@@ -10,6 +10,6 @@ Conformer реализован с нуля: Feed Forward, Depthwise Separable Co
 
 **Обучение:** L1-loss на waveform, Adam + Noam Scheduler, gradient clipping, Mixed Precision.
 
-**Результат:** SNR_model ≥ 11 dБ на всех 4 тестовых выборках.
+**Результат:** SNR_model ≥ 11 dБ на всех 4 тестовых выборках. В `audio_examples.zip` лежат 10 примеров на инференсе. В `events...` - логи обучения.
 
 **Стек:** `torch`, `torchaudio`, `omegaconf`, `tensorboard`
